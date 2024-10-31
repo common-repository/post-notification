@@ -1,0 +1,35 @@
+Einstellungen
+
+@@navbar
+
+<form id="newsletter" method="post" action="@@action" style="text-align:left">
+
+	<p>Format:<br/>
+	<input type="radio" name="format" value="format_html" @@format_html_checked/>HTML</input> &middot; 
+	<input type="radio" name="format" value="format_text" @@format_text_checked />Text</input></p> 
+
+	</p>Zeitpunkt:<br/>
+	<input type="radio" name="interval" value="interval_istantly">Sofort</input><br/>
+	<input type="radio" name="interval" value="interval_dayly">Täglich</input> Uhrzeit (hh:mm):
+	<input type="text"  name="daylytime" size="5" value="@@time"/> <br/>
+	<input type="radio" name="interval" value="interval_weekly">Wöchentlich</input>
+	<select name="day">
+	//todo: In Menü packen
+		<!-- "day_" ist used to make automatic replacements -->
+		<option value="day_0">Sonntag</option>
+		<option value="day_1">Montag</option>
+		<option value="day_2">Dienstag</option>
+		<option value="day_3">Mittwoch</option>
+		<option value="day_4">Donnerstag</option>
+		<option value="day_5">Freitag</option>
+		<option value="day_6">Samstag</option>		
+	</select>
+	Uhrzeit (hh:mm):
+	<input type="text"  name="weeklytime" size="5" value="@@time"/>
+	
+	<br/>
+	
+	
+	<input type="submit" name="submit" value="Speichern" /></p>
+	@@vars
+</form>

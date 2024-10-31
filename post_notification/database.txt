@@ -1,0 +1,59 @@
+post_notification_emails
+========================
+id: The email ID 	
+email_addr: The email address
+gets_mail: //Note: Probably should be boolean by now.
+	0 Doesn't get mails
+	1 Gets mails
+last_modified: The date when the profile has be modified the last time
+date_subscribed: The date the user subscribed
+act_code: The current activation code
+subscribe_ip: The IP from which the user subsribed
+format:
+	0: Text mail
+	1: HTML mail
+send_type:
+	0: imedeately
+	1: dayly
+	2: weekly
+send_datum: Offset in secounds - Only valid if send_type is 1 or 2
+			0 = Sunday 0:00
+
+
+post_notification_post
+======================
+post_id: The id of the post
+notification_sent: Whether the post has been added to the send queue
+	0: Not sent yet
+	-1: do not send
+	1: Post has been added to the queue
+date_saved: The last time the post has been saved	
+
+
+post_notification_subs
+======================
+
+Manage the subscriptions.
+
+email_id:  The Email which subscribe
+obj_id:    What has been subscribed to
+obj_type:
+	0: Posts of a category; id: cat
+	1: Comments of a category; id: cat
+	2: Comments of a post; id:post
+
+post_notification_queue
+=======================
+
+eamil_id:	The Email to send the mail to
+obj_id:		The Object to send
+state:	The state the mail is in
+	0: Unsent
+	1: Sent
+	-1: Error
+	
+type:	The type of mail to send
+	0: a post
+	1: a comment
+	2: a Login-Link
+	

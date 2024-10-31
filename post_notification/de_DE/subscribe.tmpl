@@ -1,0 +1,12 @@
+Anmelden
+<form id="newsletter" method="post" action="@@action" style="text-align:left">
+	<p>Nach dem Eintragen Ihrer Emailaddresse bekommen Sie einen Link zugeschickt mit
+	dem sie Ihre Einstellungen ändern können. Über diesen können Sie sich auch abmelden.</p>
+	<p>E-Mail: <input type="text" name="addr" size="30" maxlength="50" value="@@addr" /></p>
+	<!--capt--><p><img alt="captcha" src="@@captchaimg" /> <br />
+	Bitte Zeichen eingeben: <input type="text" name="captcha" size="30" maxlength="50" />
+	<input type="hidden" name="captchacode" value="@@captchacode" />
+	</p><!--cha-->
+	<p><input type="submit" name="submit" value="Absenden" /></p>
+	@@vars
+</form>

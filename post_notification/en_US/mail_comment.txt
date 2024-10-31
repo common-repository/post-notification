@@ -1,0 +1,12 @@
+At @@blogname on @@date at @@time @@author made comment about "@@post_title" by @@post_author
+
+@@content 
+
+@@permalink
+
+________________________________________________________
+
+You have subscribed to receive these messages.
+If you want to unsubscribe or change your settings:<br />
+		
+@@conf_url

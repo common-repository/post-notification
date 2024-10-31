@@ -1,0 +1,9 @@
+Anmeldung auf @@blogname
+Sie haben sich mit @@addr auf @@blogname angemeldet.
+
+Um dies zu bestätigen, die Einstellungen zu ändern oder sich abzumelden klicken Sie bitte auf folgenden Link.
+
+@@conf_url
+
+Wenn Sie sich nicht angemeldet haben, dann können Sie diese Mitteilung ingnorieren
+und löschen. Wir entschuldigen uns für Ihre Mühe.

@@ -1,0 +1,33 @@
+
+
+
+DIGESTS
+=======
+
+There is an obj-array containning all objects to go into the digest
+The Posts can be sorted using the following functions.
+
+Each Array element will have the following elements
+  type:     0 = Post; 1 =Comment
+  id:       The id of the post or comment
+  url:      The Link
+  gmt:      GMT of the post
+  date:     The date it has been written
+  time:     The time it has been written
+  contents: The Contents
+  author:   The post author
+
+Post only:
+  title:    The title of the post
+
+Comment only
+  post_id
+  post_title
+  post_author
+  post_url
+  
+Further on there are the following globals:
+  $blogname or @@bogname: The name of the blog
+  $numposts 
+  $numcomments
+  

@@ -1,0 +1,13 @@
+@@blogname: @@title
+The Post "@@title" by @@author has been published on @@date at @@time at "@@blogname".
+
+@@content 
+
+@@permalink
+
+________________________________________________________
+
+You have subscribed to receive these messages.
+If you want to unsubscribe or change your settings:<br />
+		
+@@conf_url
